@@ -1,6 +1,6 @@
-#REGEX
+# REGEX
 
-##Directions
+## Directions
 
 Make a project that will go through the hamlet file provided and using regex replace every instance of "Hamlet" with "Leon" and every instance of Horatio with "Tariq".
 
