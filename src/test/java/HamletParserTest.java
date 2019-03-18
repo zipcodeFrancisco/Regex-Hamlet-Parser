@@ -55,7 +55,7 @@ public class HamletParserTest {
             if(index == -1){ break;}
             expected.append("Horatio found at " + index  + "\n");
         }
-        Assert.assertEquals(expected,actual);
+        Assert.assertEquals(expected.toString(),actual.toString());
     }
 
     @Test
@@ -73,7 +73,7 @@ public class HamletParserTest {
             if(index == -1){ break;}
             expected.append("Hamlet found at " + index  + "\n");
         }
-        Assert.assertEquals(expected,actual);
+        Assert.assertEquals(expected.toString(),actual.toString());
     }
 
 }
